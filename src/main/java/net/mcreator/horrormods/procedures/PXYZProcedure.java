@@ -55,8 +55,8 @@ public class PXYZProcedure {
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		HorrorModsModVariables.X = Math.round(x);
-		HorrorModsModVariables.Y = Math.round(y);
-		HorrorModsModVariables.Z = Math.round(z);
+		HorrorModsModVariables.X = Math.floor(x);
+		HorrorModsModVariables.Y = Math.floor(y);
+		HorrorModsModVariables.Z = Math.floor(z);
 	}
 }
