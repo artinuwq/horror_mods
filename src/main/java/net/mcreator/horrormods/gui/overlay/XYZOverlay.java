@@ -38,7 +38,7 @@ public class XYZOverlay {
 			double y = _y;
 			double z = _z;
 			if (true) {
-				Minecraft.getInstance().fontRenderer.drawString(event.getMatrixStack(), " " + x + " " + y + "  " + z + ".", posX + -212, posY + 103,
+				Minecraft.getInstance().fontRenderer.drawString(event.getMatrixStack(), " " + x + " " + y + "  " + z + ".", posX + -207, posY + 104,
 						-12829636);
 			}
 		}

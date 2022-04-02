@@ -7,11 +7,28 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "xyz"
+    },
+    {
+      "name": "Harddreams",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harddreams",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
+    "ru_ru": {},
     "en_us": {}
   },
   "foldersRoot": {
