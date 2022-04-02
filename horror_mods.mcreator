@@ -9,18 +9,14 @@
       "registry_name": "xyz"
     },
     {
-      "name": "Harddreams",
+      "name": "PXYZ",
       "type": "procedure",
-      "sortid": 2,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "harddreams",
+      "registry_name": "pxyz",
       "metadata": {
         "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
           {
             "name": "x",
             "type": "number"
@@ -32,16 +28,31 @@
           {
             "name": "z",
             "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "X",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "Z",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "Y",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "ru_ru": {},

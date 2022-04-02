@@ -7,12 +7,12 @@
       {
         "type": "label",
         "data": {
-          "text": " <x> <y>  <z>.",
+          "text": "<VAR:X>  <VAR:Y >  <VAR:Z> ",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": " <x> <y>  <z>.",
+          "name": "<VAR:X>  <VAR:Y >  <VAR:Z> ",
           "x": 6,
           "y": 224
         }
